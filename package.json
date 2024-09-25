@@ -1,0 +1,21 @@
+{
+  "name": "body-measurement-ai",
+  "version": "1.0.0",
+  "description": "AI model to capture body measurements and determine clothing size",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "http-server"
+  },
+  "author": "Jovial P Thomas (https://github.com/jovialp) (https://www.jovialp.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow-models/posenet": "^2.2.2",
+    "@tensorflow/tfjs": "^4.21.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2",
+    "@types/react": "^18.3.8"
+  }
+}
