@@ -1,6 +1,6 @@
 {
   "name": "body-measurement-ai",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AI model to capture body measurements and determine clothing size",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,5 +17,13 @@
   "devDependencies": {
     "typescript": "^5.6.2",
     "@types/react": "^18.3.8"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jovialp/body-measurement-ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jovialp/body-measurement-ai/issues"
+  },
+  "homepage": "https://github.com/jovialp/body-measurement-ai#readme"
 }
